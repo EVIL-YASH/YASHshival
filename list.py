@@ -1,0 +1,16 @@
+x=["happy",456,789,"ice",98,73.2,65,"picture",34,87]
+print("\n list x : ",x[:])
+print("\n list x[2:5] : ",x[2:5])
+print("\n list negative indexing x[::-1] : ",x[::-1])
+x.append(21)
+print("\nafter add 21 value in list : ",x)
+x.insert(2,"sam")
+print("\nafter insert sam in on second index : ",x)
+del x[5]
+print("\nlist after delete x[5] :", x)
+x.pop(6)
+print("\nlist after pop x[6] :",x)
+x.remove(34)
+print("\nlist after remove 34 :",x)
+x.clear()
+print("\nafter clear list : ",x)
